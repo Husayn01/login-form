@@ -404,11 +404,11 @@ function Loginform(){
       setWhere(event.target.value)}
       >
       <option>Select platform</option>
-      <option value="WhatsApp">Employed</option>
-      <option value="Facebook">Unemployed</option>
-      <option value="IG">Student</option>
-      <option value="Linkedln">Unemployed</option>
-      <option value="Others">Student</option>
+      <option value="WhatsApp">WhatsApp</option>
+      <option value="Facebook">Facebook</option>
+      <option value="IG">IG</option>
+      <option value="Linkedln">LinkedIn</option>
+      <option value="Others">Others</option>
       </select>
       <br />
 
