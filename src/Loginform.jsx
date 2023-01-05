@@ -49,7 +49,7 @@ function Loginform(){
       />
       <br />
 
-      <label htmlFor= "middlename"> Lastname:</label>
+      <label htmlFor= "middlename"> Middlename:</label>
       <br />
       <input
       type="text"
