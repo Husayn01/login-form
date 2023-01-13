@@ -394,7 +394,7 @@ function Loginform(){
       <br />
 
       <label htmlFor="why">In not less than 150 words, state why you deserve 
-      <br /> the MyScholarshipNG English Proficiency Scholarship.
+       the MyScholarshipNG English Proficiency Scholarship.
       </label>
         <br />
       <textarea
