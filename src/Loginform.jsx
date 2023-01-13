@@ -7,6 +7,7 @@ function Loginform(){
   const [middlename, setMiddlename] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmpassword, setConfirmPassword] = useState('');
   const [nationality, setNationality] = useState('');
   const [state, setState] = useState('');
   const [institution, setInstitution] = useState('');
@@ -79,6 +80,17 @@ function Loginform(){
       value={password}
       onChange={(event) =>
       setPassword(event.target.value)}
+      />
+      <br />
+       
+      <label htmlFor= "password">Confirm Password:</label>
+      <br />
+      <input
+      type="password"
+      id="confirmpassword"
+      value={confirmpassword}
+      onChange={(event) =>
+      setconfirmPassword(event.target.value)}
       />
       <br />
 
