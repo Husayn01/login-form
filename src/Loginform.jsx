@@ -31,6 +31,7 @@ function Loginform(){
       <br />
       <input
       type="text"
+      placeholder="Enter surname"
       id="surname"
       value={surname}
       onChange={(event) =>
@@ -43,6 +44,7 @@ function Loginform(){
       <br />
       <input
       type="text"
+      placeholder="Enter firstname"
       id="firstname"
       value={firstname}
       onChange={(event) =>
@@ -54,6 +56,7 @@ function Loginform(){
       <br />
       <input
       type="text"
+      placeholder="Enter middlename"
       id="middlename"
       value={middlename}
       onChange={(event) =>
@@ -65,6 +68,7 @@ function Loginform(){
       <br />
       <input
       type="email"
+      placeholder="Enter your email"
       id="email"
       value={email}
       onChange={(event) =>
