@@ -353,6 +353,7 @@ function Loginform(){
       <br />
       <input
       type="text"
+      placeholder="Enter your state"
       id="state"
       value={state}
       onChange={(event) =>
@@ -364,6 +365,7 @@ function Loginform(){
       <br />
       <input
       type="text"
+      placeholder="Enter name of institution"
       id="institution"
       value={institution}
       onChange={(event) =>
@@ -391,9 +393,9 @@ function Loginform(){
       setEmploymentStatus(event.target.value)}
       >
       <option>Select Employment Status</option>
-      <option value="Afghanistan">Employed</option>
-      <option value="Aland Islands">Unemployed</option>
-      <option value="Albania">Student</option>
+      <option value="Employed">Employed</option>
+      <option value="Umemployed">Unemployed</option>
+      <option value="Student">Student</option>
       </select>
       <br />
 
